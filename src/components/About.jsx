@@ -10,7 +10,7 @@ const About = () => {
             <div className="max-w-4xl mx-auto px-4 text-center">
                 <h2 className="text-3xl font-bold mb-6 text-blue-900 dark:text-blue-300">About Me</h2>
                 <p className="mb-10 text-gray-800 dark:text-gray-300 leading-relaxed">
-                    Menempuh pendidikan menengah di SMAN 1 Padalarang dari tahun 2020 hingga 2023, dengan fokus pada
+                    Pendidikan terakhir di SMAN 1 Padalarang dari tahun 2020 hingga 2023, dengan fokus pada
                     pengembangan akademik dan kegiatan organisasi sekolah.
                 </p>
 
