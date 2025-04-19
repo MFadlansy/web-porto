@@ -1,4 +1,6 @@
 import ProjectCard from "./ProjectCard";
+import fotoWeb from '../assets/web.jpg';
+import fotoRumah from '../assets/rumah.jpg';
 
 const projects = [
     {
@@ -6,7 +8,7 @@ const projects = [
         description: "Website event ticketing ini memudahkan pengguna untuk memesan tiket konser serta menyediakan informasi lengkap tentang berbagai acara, sehingga pengguna dapat dengan mudah mencari dan mengikuti event yang diinginkan.",
         tech: "Laravel, Tailwind",
         time: "Desember 2024 - Januari 2025",
-        image: "/src/assets/web.jpg",
+        image: {fotoWeb},
         link: "https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-3.0?tab=readme-ov-file", // Link 1
     },
     {
@@ -14,7 +16,7 @@ const projects = [
         description: "Sistem smart home ini memungkinkan pengguna memantau gerbang via website (ESP32-CAM) dan membuka kunci (solenoid lock) melalui aplikasi Blynk jika orang yang terlihat dikenali.",
         tech: "ESP32, Blynk APP",
         time: "Mei - Juni 2024",
-        image: "/src/assets/rumah.jpg",
+        image: {fotoRumah},
         link: "https://youtu.be/4f0Z6igTW-w?si=qoNCi5guzVTmIR2G", // Link 2
     },
 ];

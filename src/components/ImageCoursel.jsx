@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
+import foto1 from '../assets/1.jpg';
+import foto2 from '../assets/3.jpg';
+import foto3 from '../assets/4.jpg';
 
 const images = [
-    "/src/assets/1.jpg",
+    {foto1},
     // "/src/assets/2.jpg",
-    "/src/assets/3.jpg",
-    "/src/assets/4.jpg",
+    {foto2},
+    {foto3},
     // "/src/assets/4.jpg",
 ];
 

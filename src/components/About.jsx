@@ -1,3 +1,9 @@
+import fotoC from '../icons/c-.png';
+import fotoJava from '../icons/java.png';
+import fotoPython from '../icons/python.png';
+import fotoPHP from '../icons/php.png';
+import fotoVSCode from '../icons/visual-studio.png';
+
 const About = () => {
     return (
         <section id="about" className="py-16 bg-gray-100 dark:bg-[#0d1b2a] transition-colors duration-500">
@@ -33,11 +39,11 @@ const About = () => {
 
                 {/* Logo tools & framework */}
                 <div className="mt-10 flex flex-wrap justify-center gap-6">
-                    <img src="/src/icons/c-.png" alt="C++" className="w-10 h-10" />
-                    <img src="/src/icons/java.png" alt="Java" className="w-10 h-10" />
-                    <img src="/src/icons/php.png" alt="PHP" className="w-10 h-10" />
-                    <img src="/src/icons/python.png" alt="Python" className="w-10 h-10" />
-                    <img src="/src/icons/visual-studio.png" alt="VS Code" className="w-10 h-10" />
+                    <img src={fotoC} alt="C++" className="w-10 h-10" />
+                    <img src={fotoJava} alt="Java" className="w-10 h-10" />
+                    <img src={fotoPHP} alt="PHP" className="w-10 h-10" />
+                    <img src={fotoPython} alt="Python" className="w-10 h-10" />
+                    <img src={fotoVSCode} alt="VS Code" className="w-10 h-10" />
                 </div>
             </div>
         </section>

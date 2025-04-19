@@ -1,4 +1,5 @@
 import { Link } from 'react-scroll';
+import fotoProfil from '../assets/bel.jpg';
 
 const Header = () => {
     return (
@@ -7,7 +8,7 @@ const Header = () => {
             className="min-h-screen bg-white dark:bg-gray-800 text-gray-900 dark:text-white py-12 px-4 transition-colors duration-500 flex flex-col justify-center items-center text-center"
         >            
             <img
-                src="/src/assets/bel.jpg"
+                src={fotoProfil}
                 alt="Foto Profil"
                 className="w-60 h-60 rounded-2xl object-cover border-4 border-blue-500 shadow-lg mb-6"
             />
