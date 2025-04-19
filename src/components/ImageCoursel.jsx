@@ -5,10 +5,10 @@ import foto3 from '../assets/4.jpg';
 
 const images = [
     foto1,
-    // "/src/assets/2.jpg",
+
     foto2,
     foto3,
-    // "/src/assets/4.jpg",
+
 ];
 
 const ImageCoursel = () => {

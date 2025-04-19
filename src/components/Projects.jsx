@@ -5,7 +5,7 @@ import fotoRumah from '../assets/rumah.jpg';
 const projects = [
     {
         title: "Website E-Ticketing",
-        description: "Website event ticketing ini memudahkan pengguna untuk memesan tiket konser serta menyediakan informasi lengkap tentang berbagai acara, sehingga pengguna dapat dengan mudah mencari dan mengikuti event yang diinginkan.",
+        description: "Website event ticketing ini memudahkan pengguna untuk memesan tiket konser serta menyediakan informasi lengkap tentang berbagai acara, sehingga pengguna dapat dengan mudah mencari dan mengikuti event yang diinginkan",
         tech: "Laravel, Tailwind",
         time: "Desember 2024 - Januari 2025",
         image: fotoWeb,
@@ -13,7 +13,7 @@ const projects = [
     },
     {
         title: "Smart Gatelock",
-        description: "Sistem smart home ini memungkinkan pengguna memantau gerbang via website (ESP32-CAM) dan membuka kunci (solenoid lock) melalui aplikasi Blynk jika orang yang terlihat dikenali.",
+        description: "Sistem smart home ini memungkinkan pengguna memantau gerbang via website (ESP32-CAM) dan membuka kunci (solenoid lock) melalui aplikasi Blynk jika orang yang terlihat dikenali",
         tech: "ESP32, Blynk APP",
         time: "Mei - Juni 2024",
         image: fotoRumah,
